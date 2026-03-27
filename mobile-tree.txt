@@ -1,0 +1,9 @@
+mobile
+|-- .expo  [skipped]
+|-- assets
+|-- node_modules  [skipped]
+|-- app.json
+|-- App.tsx
+|-- index.ts
+|-- package.json
+\-- tsconfig.json

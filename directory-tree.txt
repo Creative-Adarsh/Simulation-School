@@ -1,0 +1,20 @@
+simschool
+|-- .git  [skipped]
+|-- apps
+|   |-- api
+|   |-- mobile
+|   |   |-- .expo  [skipped]
+|   |   |-- assets
+|   |   \-- node_modules  [skipped]
+|   \-- web
+|       |-- .next  [skipped]
+|       |-- app
+|       |   |-- api
+|       |   \-- simulate
+|       |-- node_modules  [skipped]
+|       \-- public
+|-- node_modules  [skipped]
+|-- packages
+|   \-- sim-core
+|       \-- src
+\-- tools

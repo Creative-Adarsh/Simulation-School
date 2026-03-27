@@ -1,0 +1,49 @@
+apps
+|-- api
+|-- mobile
+|   |-- .expo  [skipped]
+|   |-- assets
+|   |-- node_modules  [skipped]
+|   |-- app.json
+|   |-- App.tsx
+|   |-- index.ts
+|   |-- package.json
+|   \-- tsconfig.json
+\-- web
+    |-- .next  [skipped]
+    |-- app
+    |   |-- api
+    |   |   |-- _lib
+    |   |   |   |-- ai-resolve.ts
+    |   |   |   \-- supabase-admin.ts
+    |   |   |-- db-test
+    |   |   |   \-- route.ts
+    |   |   \-- resolve-sim
+    |   |       \-- route.ts
+    |   |-- simulate
+    |   |   |-- components
+    |   |   |   \-- ui.tsx
+    |   |   |-- sims
+    |   |   |   |-- bubble-sort.tsx
+    |   |   |   |-- canvas-utils.ts
+    |   |   |   |-- circular-motion.tsx
+    |   |   |   |-- linked-list.tsx
+    |   |   |   |-- pendulum.tsx
+    |   |   |   |-- projectile-motion.tsx
+    |   |   |   \-- simple-harmonic-motion.tsx
+    |   |   |-- content.ts
+    |   |   |-- layout.tsx
+    |   |   |-- page.tsx
+    |   |   |-- sim-registry.ts
+    |   |   \-- simulate-client.tsx
+    |   |-- globals.css
+    |   |-- home-client.tsx
+    |   |-- layout.tsx
+    |   \-- page.tsx
+    |-- node_modules  [skipped]
+    |-- public
+    |-- next-env.d.ts
+    |-- next.config.ts
+    |-- package.json
+    |-- README.md
+    \-- tsconfig.json
