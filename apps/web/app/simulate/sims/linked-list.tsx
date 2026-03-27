@@ -403,7 +403,7 @@ export default function LinkedListSim() {
 
                     <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
                         <div className="text-sm font-semibold text-slate-900">Playback</div>
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Speed: <b>{speedMs}ms</b>
                             <input className="mt-1 w-full" type="range" min={120} max={900} step={10} value={speedMs} onChange={(e) => setSpeedMs(parseInt(e.target.value, 10))} />
                         </div>

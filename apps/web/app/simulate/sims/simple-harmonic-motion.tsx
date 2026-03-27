@@ -216,31 +216,31 @@ export default function SHMSim() {
                     <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
                         <div className="text-sm font-semibold text-slate-900">Controls</div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Mass (m): <b>{m.toFixed(2)}</b>
                             <input className="mt-1 w-full" type="range" min={0.4} max={3.0} step={0.05} value={m}
                                 onChange={(e) => setM(parseFloat(e.target.value))} />
                         </div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Spring constant (k): <b>{k.toFixed(1)}</b>
                             <input className="mt-1 w-full" type="range" min={2} max={20} step={0.2} value={k}
                                 onChange={(e) => setK(parseFloat(e.target.value))} />
                         </div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Damping: <b>{damping.toFixed(2)}</b>
                             <input className="mt-1 w-full" type="range" min={0} max={0.25} step={0.01} value={damping}
                                 onChange={(e) => setDamping(parseFloat(e.target.value))} />
                         </div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Start displacement (x₀): <b>{x0.toFixed(2)}</b>
                             <input className="mt-1 w-full" type="range" min={-1.2} max={1.2} step={0.05} value={x0}
                                 onChange={(e) => setX0(parseFloat(e.target.value))} />
                         </div>
 
-                        <label className="mt-3 flex items-center gap-2 text-sm">
+                        <label className="mt-3 flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" checked={showGraph} onChange={(e) => setShowGraph(e.target.checked)} />
                             Show x(t) graph
                         </label>

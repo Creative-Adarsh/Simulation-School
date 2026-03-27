@@ -193,26 +193,26 @@ export default function ProjectileMotionSim() {
                     <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
                         <div className="text-sm font-semibold text-slate-900">Controls</div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Speed: <b>{speed}</b> m/s
                             <input className="mt-1 w-full" type="range" min={5} max={35} value={speed} onChange={(e) => setSpeed(parseFloat(e.target.value))} />
                         </div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Angle: <b>{angleDeg}°</b>
                             <input className="mt-1 w-full" type="range" min={5} max={85} value={angleDeg} onChange={(e) => setAngleDeg(parseFloat(e.target.value))} />
                         </div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Gravity g: <b>{g.toFixed(1)}</b>
                             <input className="mt-1 w-full" type="range" min={1} max={20} step={0.1} value={g} onChange={(e) => setG(parseFloat(e.target.value))} />
                         </div>
 
-                        <label className="mt-3 flex items-center gap-2 text-sm">
+                        <label className="mt-3 flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" checked={showPath} onChange={(e) => setShowPath(e.target.checked)} />
                             Show full path
                         </label>
-                        <label className="mt-2 flex items-center gap-2 text-sm">
+                        <label className="mt-2 flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" checked={showVelocity} onChange={(e) => setShowVelocity(e.target.checked)} />
                             Show velocity arrow
                         </label>

@@ -183,7 +183,7 @@ export default function CircularMotionSim() {
                     <div className="rounded-2xl border border-slate-200 bg-slate-50 p-3">
                         <div className="text-sm font-semibold text-slate-900">Controls</div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Radius: <b>{radius}px</b>
                             <input
                                 className="mt-1 w-full"
@@ -195,7 +195,7 @@ export default function CircularMotionSim() {
                             />
                         </div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Angular speed (ω): <b>{omega.toFixed(2)}</b> rad/s
                             <input
                                 className="mt-1 w-full"
@@ -208,12 +208,12 @@ export default function CircularMotionSim() {
                             />
                         </div>
 
-                        <label className="mt-3 flex items-center gap-2 text-sm">
+                        <label className="mt-3 flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" checked={showVectors} onChange={(e) => setShowVectors(e.target.checked)} />
                             Show vectors
                         </label>
 
-                        <label className="mt-2 flex items-center gap-2 text-sm">
+                        <label className="mt-2 flex items-center gap-2 text-sm text-slate-700">
                             <input type="checkbox" checked={trace} onChange={(e) => setTrace(e.target.checked)} />
                             Show trace
                         </label>

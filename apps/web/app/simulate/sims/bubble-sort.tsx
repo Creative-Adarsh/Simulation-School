@@ -188,7 +188,7 @@ export default function BubbleSortSim() {
                             </Button>
                         </div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Speed: <b>{speedMs}ms</b>
                             <input
                                 className="mt-1 w-full"
@@ -201,7 +201,7 @@ export default function BubbleSortSim() {
                             />
                         </div>
 
-                        <div className="mt-3 text-sm">
+                        <div className="mt-3 text-sm text-slate-700">
                             Size: <b>{size}</b>
                             <input
                                 className="mt-1 w-full"
