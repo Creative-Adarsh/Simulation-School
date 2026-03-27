@@ -1,245 +1,175 @@
-```md
 <div align="center">
 
-# SimSchool
+# 🎓 SimSchool
 
 ### Learn complex concepts through interactive, visual simulations
 
-<p>
-  <strong>SimSchool</strong> is a modern simulation-based learning platform that helps students understand difficult topics through dynamic, intuitive, and hands-on visual experiences.
-</p>
+SimSchool is a modern simulation-based learning platform that helps students understand difficult topics through dynamic, intuitive, and hands-on visual experiences.
 
-<p>
-  <a href="https://simulation-school.vercel.app/">
-    <img src="https://img.shields.io/badge/Live%20Demo-Visit%20Now-000000?style=for-the-badge&logo=vercel" alt="Live Demo" />
-  </a>
-  <a href="https://github.com/Creative-Adarsh/Simulation-School">
-    <img src="https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github" alt="GitHub Repository" />
-  </a>
-  <img src="https://img.shields.io/badge/Next.js-16-black?style=for-the-badge&logo=nextdotjs" alt="Next.js" />
-  <img src="https://img.shields.io/badge/React-19-149ECA?style=for-the-badge&logo=react&logoColor=white" alt="React" />
-  <img src="https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript" />
-  <img src="https://img.shields.io/badge/pnpm-Monorepo-F69220?style=for-the-badge&logo=pnpm&logoColor=white" alt="pnpm Monorepo" />
-  <img src="https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel" alt="Vercel" />
-</p>
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-Visit%20Now-000000?style=for-the-badge&logo=vercel)](https://simulation-school.vercel.app/)
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-181717?style=for-the-badge&logo=github)](https://github.com/Creative-Adarsh/Simulation-School)
+![Next.js](https://img.shields.io/badge/Next.js-15-black?style=for-the-badge&logo=nextdotjs)
+![React](https://img.shields.io/badge/React-19-149ECA?style=for-the-badge&logo=react&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
+![pnpm](https://img.shields.io/badge/pnpm-Monorepo-F69220?style=for-the-badge&logo=pnpm&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-Deployed-000000?style=for-the-badge&logo=vercel)
 
-<p>
-  <a href="#live-demo">Live Demo</a> •
-  <a href="#overview">Overview</a> •
-  <a href="#why-simschool">Why SimSchool</a> •
-  <a href="#features">Features</a> •
-  <a href="#screenshots">Screenshots</a> •
-  <a href="#architecture">Architecture</a> •
-  <a href="#tech-stack">Tech Stack</a> •
-  <a href="#getting-started">Getting Started</a>
-</p>
+[Live Demo](#-live-demo) •
+[Overview](#-overview) •
+[Features](#-features) •
+[Screenshots](#-screenshots) •
+[Architecture](#-architecture) •
+[Tech Stack](#%EF%B8%8F-tech-stack) •
+[Getting Started](#-getting-started) •
+[Roadmap](#-roadmap)
 
 </div>
 
 ---
 
-<p align="center">
-  <img src="preview/Home.png" alt="SimSchool Home" width="1000" />
-</p>
+![SimSchool Home](preview/home.png)
 
 ---
 
-## Live Demo
+## 🌐 Live Demo
 
-<div align="center">
-
-### 🌐 Production URL  
-[https://simulation-school.vercel.app/](https://simulation-school.vercel.app/)
-
-</div>
+> **👉 [https://simulation-school.vercel.app](https://simulation-school.vercel.app/)**
 
 ---
 
-## Overview
+## 📖 Overview
 
 SimSchool is built for students and learners who understand better when they can **see a concept working**, **interact with it**, and **experiment with it in real time**.
 
-Rather than relying only on static explanations, SimSchool transforms complex subjects into **visual simulation experiences** that make learning more intuitive, memorable, and engaging.
+Rather than relying on static explanations, SimSchool transforms complex subjects into **visual simulation experiences** — making learning more intuitive, memorable, and engaging.
 
 It is especially useful for learners who prefer:
-- visual understanding over passive reading
-- concept exploration over memorization
-- interactive learning over static theory
-- real intuition over surface-level familiarity
+
+- 🎯 **Visual understanding** over passive reading
+- 🔬 **Concept exploration** over memorization
+- 🕹️ **Interactive learning** over static theory
+- 💡 **Real intuition** over surface-level familiarity
 
 ---
 
-## Why SimSchool?
+## ❓ Why SimSchool?
 
-Traditional learning often explains dynamic ideas using static content.
+Traditional learning often explains dynamic ideas using static content — creating a major gap:
 
-That creates a major gap:
-- motion is taught without movement
-- algorithms are taught without step-by-step visualization
-- systems are explained without interaction
-- understanding is expected without exploration
+| Problem | SimSchool Solution |
+|---|---|
+| Motion is taught without movement | Real-time physics simulations |
+| Algorithms are taught without visualization | Step-by-step animated walkthroughs |
+| Systems are explained without interaction | Hands-on, controllable parameters |
+| Understanding is expected without exploration | Free exploration and experimentation |
 
-SimSchool closes that gap by creating a space where learners can:
-- search for topics
-- open simulations instantly
-- visualize the concept in action
-- build intuition through interaction
-
-In short, **SimSchool makes difficult ideas feel understandable**.
+> **SimSchool makes difficult ideas feel understandable.**
 
 ---
 
-## Features
-
-<div align="center">
+## ✨ Features
 
 | Feature | Description |
 |---|---|
-| Interactive Simulations | Explore concepts visually instead of only reading theory |
-| Concept Search | Search and navigate simulations quickly |
-| Multi-domain Learning | Covers Physics and DSA-based topics |
-| Modern Web Experience | Fast and responsive UI with Next.js |
-| Mobile App Foundation | Expo-powered mobile support for future expansion |
-| Shared Core Package | Reusable simulation logic through a monorepo package |
-| API Integration | Route handlers for simulation resolution and backend logic |
-| Supabase Support | Connected backend utilities and service integration |
-| AI-Assisted Logic | Topic-to-simulation resolution pipeline |
-
-</div>
+| 🧪 **Interactive Simulations** | Explore concepts visually instead of only reading theory |
+| 🔍 **Concept Search** | Search and navigate simulations quickly |
+| 📚 **Multi-domain Learning** | Covers Physics and DSA-based topics |
+| ⚡ **Modern Web Experience** | Fast, responsive UI powered by Next.js |
+| 📱 **Mobile App Foundation** | Expo-powered mobile support for future expansion |
+| 📦 **Shared Core Package** | Reusable simulation logic through a monorepo package |
+| 🔌 **API Integration** | Route handlers for simulation resolution and backend logic |
+| 🗄️ **Supabase Support** | Connected backend utilities and service integration |
+| 🤖 **AI-Assisted Logic** | Smart topic-to-simulation resolution pipeline |
 
 ---
 
-## Current Simulations
+## 🧪 Current Simulations
 
-SimSchool currently includes interactive modules such as:
+SimSchool currently includes interactive modules across **Physics** and **Data Structures & Algorithms**:
 
-- **Bubble Sort**
-- **Linked List**
-- **Circular Motion**
-- **Pendulum**
-- **Projectile Motion**
-- **Simple Harmonic Motion**
+### Physics
+- 🌀 **Circular Motion** — Rotational dynamics, angular velocity, centripetal force
+- 🔁 **Simple Harmonic Motion** — Oscillation, restoring forces, wave patterns
+- 🎯 **Projectile Motion** — Trajectory, velocity components, gravity effects
+- ⏱️ **Pendulum** — Period, amplitude, gravitational influence
 
-These simulations help learners understand:
-- physical systems and movement
-- oscillation and motion behavior
-- algorithmic flow
-- data structure mechanics
-- concept relationships through interaction
+### Data Structures & Algorithms
+- 📊 **Bubble Sort** — Step-by-step sorting visualization with comparisons and swaps
+- 🔗 **Linked List** — Node connections, insertion, traversal mechanics
 
 ---
 
-## Screenshots
+## 📸 Screenshots
 
-<div align="center">
+### 🏠 Home Experience
 
-### Home Experience
+![SimSchool Home Page](preview/home.png)
 
-<p>
-  <img src="preview/Home.png" alt="SimSchool Home Page" width="1000" />
-</p>
-
-<p>
-  The landing experience allows learners to search for topics and quickly access available simulations through a clean, focused interface.
-</p>
+> The landing page lets learners search for topics and instantly access available simulations through a clean, focused interface.
 
 ---
 
-### Bubble Sort Simulation
+### 📊 Bubble Sort Simulation
 
-<p>
-  <img src="preview/Bubble Sort.png" alt="Bubble Sort Simulation" width="1000" />
-</p>
+![Bubble Sort Simulation](preview/bubble-sort.png)
 
-<p>
-  A visual and interactive way to understand how sorting works step by step, making algorithm behavior easier to follow.
-</p>
+> A visual and interactive way to understand how sorting works step by step — making algorithm behavior easier to follow.
 
 ---
 
-### Circular Motion Simulation
+### 🌀 Circular Motion Simulation
 
-<p>
-  <img src="preview/Circular Motion.png" alt="Circular Motion Simulation" width="1000" />
-</p>
+![Circular Motion Simulation](preview/circular-motion.png)
 
-<p>
-  Designed to help learners understand rotational behavior, angular movement, and related physics concepts through motion-based visualization.
-</p>
+> Helps learners understand rotational behavior, angular movement, and related physics concepts through motion-based visualization.
 
 ---
 
-### Simple Harmonic Motion Simulation
+### 🔁 Simple Harmonic Motion Simulation
 
-<p>
-  <img src="preview/Simple Harmonic Motion.png" alt="Simple Harmonic Motion Simulation" width="1000" />
-</p>
+![Simple Harmonic Motion Simulation](preview/simple-harmonic-motion.png)
 
-<p>
-  Helps students intuitively grasp oscillation, restoring forces, and repetitive motion patterns through interactive simulation.
-</p>
-
-</div>
+> Helps students intuitively grasp oscillation, restoring forces, and repetitive motion patterns through interactive simulation.
 
 ---
 
-## Architecture
+## 🏗️ Architecture
 
 SimSchool is structured as a **pnpm monorepo**, allowing multiple applications and shared packages to live in a unified codebase.
 
-This architecture makes the project easier to scale, maintain, and extend across platforms.
-
-### High-Level Structure
-
-```bash
+```
 simschool/
 ├── apps/
-│   ├── api/
-│   ├── mobile/
-│   └── web/
+│   ├── api/             # Backend API services
+│   ├── mobile/          # Expo / React Native app
+│   └── web/             # Next.js web application
 ├── packages/
-│   └── sim-core/
-├── tools/
+│   └── sim-core/        # Shared simulation logic
+├── tools/               # Dev utilities & scripts
 ├── pnpm-workspace.yaml
 └── package.json
 ```
 
----
+### Project Breakdown
 
-## Project Breakdown
-
-### `apps/web`
-The main web application built with **Next.js**.
-
-It includes:
-- homepage and search experience
-- simulation browsing
-- simulation pages
-- API route handlers
-- simulation registry and UI logic
-
-### `apps/mobile`
-A mobile app built with **Expo / React Native**, laying the foundation for portable, cross-platform learning experiences.
-
-### `apps/api`
-A dedicated area for backend/API expansion and service separation.
-
-### `packages/sim-core`
-A shared package for reusable simulation logic and common abstractions across applications.
-
-### `tools`
-Project utilities and development support tooling.
+| Package | Description |
+|---|---|
+| `apps/web` | Main web app — homepage, search, simulation pages, API routes, simulation registry |
+| `apps/mobile` | Expo / React Native app — foundation for cross-platform mobile learning |
+| `apps/api` | Dedicated backend/API area for service expansion |
+| `packages/sim-core` | Shared simulation logic and common abstractions |
+| `tools` | Project utilities and development support |
 
 ---
 
-## Web App Structure
+### 📂 Web App Structure
 
-```bash
+```
 apps/web/app/
 ├── api/
 │   ├── _lib/
-│   │   ├── ai-resolve.ts
-│   │   └── supabase-admin.ts
+│   │   ├── ai-resolve.ts       # AI topic resolution
+│   │   └── supabase-admin.ts   # Supabase admin client
 │   ├── db-test/
 │   └── resolve-sim/
 ├── simulate/
@@ -262,127 +192,72 @@ apps/web/app/
 
 ---
 
-## Tech Stack
-
-<div align="center">
+## ⚙️ Tech Stack
 
 | Layer | Technologies |
 |---|---|
-| Web | Next.js, React, TypeScript |
-| Mobile | Expo, React Native |
-| Backend/API | Next.js Route Handlers |
-| Validation | Zod |
-| Backend Services | Supabase |
-| Styling | Tailwind CSS, PostCSS |
-| Tooling | pnpm Workspaces, ESLint |
-
-</div>
+| **Frontend** | Next.js · React · TypeScript |
+| **Mobile** | Expo · React Native |
+| **Backend / API** | Next.js Route Handlers |
+| **Validation** | Zod |
+| **Database / Services** | Supabase |
+| **Styling** | Tailwind CSS · PostCSS |
+| **Tooling** | pnpm Workspaces · ESLint |
 
 ---
 
-## Design Philosophy
+## 💡 Design Philosophy
 
-SimSchool is designed around one core principle:
+> *If a learner can interact with a concept, they can understand it more deeply.*
 
-> **If a learner can interact with a concept, they can understand it more deeply.**
+This philosophy drives every decision:
 
-That philosophy drives:
-- simulation-first learning
-- intuitive interfaces
-- minimal friction exploration
-- concept-centered product design
+- 🧪 **Simulation-first learning** — visuals before text
+- 🎨 **Intuitive interfaces** — zero learning curve
+- 🚀 **Minimal friction** — search → simulate → understand
+- 🎯 **Concept-centered design** — focused on the "aha!" moment
 
 ---
 
-## Getting Started
+## 🚀 Getting Started
 
 ### Prerequisites
 
-Before running the project, make sure you have:
-
-- **Node.js 18+**
-- **pnpm 10+**
-
-Install pnpm if needed:
+- **Node.js** 18+
+- **pnpm** 10+
 
 ```bash
+# Install pnpm if needed
 npm install -g pnpm
 ```
 
----
-
-## Installation
-
-Clone the repository:
+### Installation
 
 ```bash
+# Clone the repository
 git clone https://github.com/Creative-Adarsh/Simulation-School.git
 cd Simulation-School
-```
 
-Install all dependencies from the root:
-
-```bash
+# Install all dependencies
 pnpm install
 ```
 
----
-
-## Run Locally
-
-### Web App
+### Run Locally
 
 ```bash
-cd apps/web
-pnpm dev
-```
-
-Then open:
-
-```bash
-http://localhost:3000
-```
-
-### Mobile App
-
-```bash
-cd apps/mobile
-pnpm start
-```
-
----
-
-## Root Workspace Commands
-
-From the project root:
-
-```bash
+# Web App (opens at http://localhost:3000)
 pnpm dev:web
+
+# Mobile App
 pnpm dev:mobile
+
+# API Server
 pnpm dev:api
 ```
 
----
+### Environment Variables
 
-## Environment Variables
-
-The project contains backend utility files such as:
-
-- `apps/web/app/api/_lib/supabase-admin.ts`
-- `apps/web/app/api/_lib/ai-resolve.ts`
-
-This indicates that environment variables are required for services like:
-- Supabase
-- backend/admin access
-- AI-related integration
-
-Create a local environment file in:
-
-```bash
-apps/web/.env.local
-```
-
-Example placeholders:
+Create a `.env.local` file in `apps/web/`:
 
 ```env
 SUPABASE_URL=your_supabase_url
@@ -390,92 +265,78 @@ SUPABASE_SERVICE_ROLE_KEY=your_service_role_key
 AI_API_KEY=your_ai_api_key
 ```
 
-> Never commit real secrets into the repository.
+> ⚠️ **Never commit real secrets into the repository.**
 
 ---
 
-## Deployment
+## 🌍 Deployment
 
 SimSchool is deployed on **Vercel**.
 
-<div align="center">
+> **🔗 Live at: [https://simulation-school.vercel.app](https://simulation-school.vercel.app/)**
 
-### 🚀 Live Application  
-[https://simulation-school.vercel.app/](https://simulation-school.vercel.app/)
-
-</div>
-
-### Deployment Notes
-- Framework: **Next.js**
-- Root Directory: `apps/web`
-- Package Manager: **pnpm**
-- Structure: **Monorepo**
+| Setting | Value |
+|---|---|
+| Framework | Next.js |
+| Root Directory | `apps/web` |
+| Package Manager | pnpm |
+| Structure | Monorepo |
 
 ---
 
-## Use Cases
+## 🎯 Use Cases
 
-SimSchool can be useful for:
-
-- students learning difficult topics visually
-- beginners understanding algorithm behavior
-- educators demonstrating concepts interactively
-- self-learners building conceptual intuition
-- edtech prototypes and learning platforms
+- 🎓 **Students** — Learning difficult topics visually
+- 💻 **Beginners** — Understanding algorithm behavior
+- 👩‍🏫 **Educators** — Demonstrating concepts interactively
+- 📖 **Self-learners** — Building conceptual intuition
+- 🏢 **EdTech teams** — Prototyping learning experiences
 
 ---
 
-## Roadmap
+## 🗺️ Roadmap
 
-Planned improvements and future directions may include:
-
-- more simulations across subjects
-- improved search and topic mapping
-- user profiles and progress tracking
-- richer mobile experience
-- personalized learning paths
-- broader AI-assisted educational features
-- analytics and learning insights
+- [ ] More simulations across subjects (Chemistry, Math, Biology)
+- [ ] Improved search and AI-powered topic mapping
+- [ ] User profiles and learning progress tracking
+- [ ] Richer mobile experience with native interactions
+- [ ] Personalized learning paths
+- [ ] Analytics and learning insights dashboard
+- [ ] Community-contributed simulations
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
-Contributions, ideas, and improvements are welcome.
-
-To contribute:
+Contributions, ideas, and improvements are welcome!
 
 ```bash
+# Create a feature branch
 git checkout -b feature/your-feature-name
-```
 
-Then:
-1. make your changes
-2. commit clearly
-3. push your branch
-4. open a pull request
+# Make your changes, then commit
+git commit -m "feat: add your feature description"
+
+# Push and open a Pull Request
+git push origin feature/your-feature-name
+```
 
 ---
 
-## Author
+## 👤 Author
 
-<div align="center">
+**Adarsh** — [@Creative-Adarsh](https://github.com/Creative-Adarsh)
 
-### Adarsh  
-GitHub: [@Creative-Adarsh](https://github.com/Creative-Adarsh)
+---
 
-</div>
+## 📄 License
+
+This project is licensed under the **Apache License 2.0** — see the [LICENSE](./LICENSE) file for details.
 
 ---
 
 <div align="center">
 
-### Built to make learning more visual, intuitive, and interactive.
+**Built to make learning more visual, intuitive, and interactive.** ✨
 
 </div>
-
-## License
-
-This project is licensed under the **Apache License 2.0**.  
-See the [LICENSE](./LICENSE) file for details.
-```
